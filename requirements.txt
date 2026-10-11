@@ -1,0 +1,56 @@
+# Core runtime for MMG-Vid + LLaVA-NeXT + lmms-eval.
+# flash-attn is intentionally not pinned here: install a wheel matching your
+# CUDA/torch build, e.g. `pip install flash-attn==2.5.7 --no-build-isolation`.
+
+torch==2.2.0
+torchvision==0.17.0
+torchaudio==2.2.0
+transformers==4.51.3
+tokenizers==0.21.1
+transformers-stream-generator
+accelerate==1.6.0
+huggingface-hub==0.30.2
+hf_transfer==0.1.9
+peft==0.4.0
+timm==1.0.15
+sentencepiece==0.1.99
+
+# Video decoding / image IO
+decord==0.6.0
+av==14.3.0
+opencv-python-headless==4.11.0.86
+pillow==10.1.0
+
+# Evaluation harness
+datasets==2.20.0
+evaluate==0.4.3
+pycocoevalcap==1.2
+sacrebleu==2.5.1
+scikit-learn==1.2.2
+pytablewriter==1.2.1
+sqlitedict==2.1.0
+jsonlines==4.0.0
+tqdm-multiprocess==0.0.11
+zss==1.2.0
+latex2sympy2==1.9.1
+openpyxl==3.1.5
+nltk==3.9.1
+yt-dlp==2025.2.19
+openai==1.76.0
+
+# Misc
+numpy==1.26.1
+pandas==2.2.3
+einops==0.6.1
+ftfy==6.3.1
+loguru==0.7.3
+pyyaml==6.0.2
+protobuf==3.20.0
+pydantic==1.10.8
+packaging==24.2
+sympy==1.14.0
+Jinja2==3.1.6
+tenacity==8.3.0
+zstandard==0.23.0
+numexpr==2.10.2
+httpx==0.24.0
