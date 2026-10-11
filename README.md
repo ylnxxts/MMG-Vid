@@ -147,13 +147,14 @@ export HF_HOME=/path/to/huggingface
 ## Citation
 
 ```bibtex
-@inproceedings{ma2026mmgvid,
-  title     = {MMG-Vid: Maximizing Marginal Gains at Segment-level and Token-level
-               for Efficient Video LLMs},
-  author    = {Ma, Junpeng and Zhang, Qizhe and Lu, Ming and Wang, Zhibin and
-               Zhou, Qiang and Song, Jun and Zhang, Shanghang},
-  booktitle = {Proceedings of the AAAI Conference on Artificial Intelligence (AAAI)},
-  year      = {2026}
+@inproceedings{ma2026mmg,
+  title={Mmg-vid: Maximizing marginal gains at segment-level and token-level for efficient video llms},
+  author={Ma, Junpeng and Zhang, Qizhe and Lu, Ming and Wang, Zhibin and Zhou, Qiang and Song, Jun and Zhang, Shanghang},
+  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
+  volume={40},
+  number={29},
+  pages={24253--24261},
+  year={2026}
 }
 ```
 
